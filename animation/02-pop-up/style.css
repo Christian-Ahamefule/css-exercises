@@ -61,3 +61,25 @@ button {
   opacity: 30%;
 }
 
+.popup-modal{
+  
+}
+
+.popup-modal.hide{
+
+}
+
+@supports (offset-rotation: 0deg) {
+  .popup-modal{
+    offset-rotation:0deg;
+    offset-path: path("M 250, 100, S -300, 500, -700, -200");
+  }
+  .popup-modal.hide{
+    offset-distance: 100%;
+  }
+}
+@media (prefers-reduced-motion) {
+  .popup-modal{
+    offset-path: none;
+  }
+}

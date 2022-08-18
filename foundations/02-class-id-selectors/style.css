@@ -1,0 +1,26 @@
+.first{
+    background-color: rgb(255, 158, 174);
+    font-family: Verdana,"Dejavu san", sans-serif;
+}
+
+#second{
+    color: blue;
+    font-size: 36px;
+}
+
+.new .third{
+    background-color: rgb(255, 158, 174);
+    font-family: Verdana,"Dejavu san", sans-serif;
+    font-size: 24px;
+}
+
+#fourth{
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fifth{
+    background-color: rgb(255, 158, 174);
+    font-family: Verdana,"Dejavu san", sans-serif;
+}
